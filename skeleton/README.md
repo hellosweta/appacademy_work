@@ -19,7 +19,7 @@
   can answer your question, so ask anything.
     * Do not use the internet or prior notes.
 * To submit:
-    * Rename the directory `"#{first_name}-#{last_name}"`.
+    * Rename the directory `"#{first_name}_#{last_name}"`.
     * ZIP it (you can use OS X's built in zip functionality)
     * Use either `.tar.gz` or `.zip`; no boutique formats please :-)
     * Email it to your TAs.
