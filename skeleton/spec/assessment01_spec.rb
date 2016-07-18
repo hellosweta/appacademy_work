@@ -21,9 +21,10 @@ describe 'Array#my_inject' do
     end.to yield_successive_args([100, 1], [nil, 2], [nil, 3])
   end
 
-  it 'does NOT call the built in Array#inject method' do
+  it 'does NOT call the built in Array#inject or Array#reduce method' do
     original_array = ["original array"]
     expect(original_array).not_to receive(:inject)
+    expect(original_array).not_to receive(:reduce)
     original_array.my_inject {}
   end
 
