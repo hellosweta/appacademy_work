@@ -83,12 +83,13 @@ class Array
     prc ||= Proc.new { |x, y| x <=> y }
 
     return self if count <= 1
+    
+    midpoint = count / 2
+    sorted_left = self.take(midpoint).merge_sort(&prc)
+    sorted_right = self.drop(midpoint).merge_sort(&prc)
 
-    Array.merge(
-      self.take(count / 2).merge_sort(&prc),
-      self.drop(count / 2).merge_sort(&prc),
-      &prc
-    )
+    Array.merge(sorted_left, sorted_right, &prc)
+
   end
 
   private
