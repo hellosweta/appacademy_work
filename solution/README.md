@@ -22,4 +22,4 @@
     * Rename the directory `"#{first_name}_#{last_name}"`.
     * ZIP it
       * Use `.zip`; no boutique formats please :-)
-    * Upload the assessment to progress tracker.  
+    * Upload to progress tracker.  
