@@ -1,13 +1,14 @@
 # Assessment01 Instructions
 
-* 45min.
+* You will have 45min for this assessment.
     * Do not worry if you do not complete all the assessment; do the
       best you can.
 * Instructions for each problem are written inside the spec files (in
   the `spec` directory).
 * Run the specs as you solve the assessment. Try to get as many specs
   to pass as you can.
-    * To run the specs, run `bundle exec rspec spec/assessment01_spec.rb` in the
+    * To run one specific spec, add `:line_number` at the end.  For example, `bundle exec rspec spec/assessment01_spec.rb:22`
+    * To run all the specs, run `bundle exec rspec spec/assessment01_spec.rb` in the
       console.
     * Look at the title of the spec to see why it failed; you can also
       look at the spec code for more information.
@@ -19,6 +20,6 @@
     * Do not use the internet or prior notes.
 * To submit:
     * Rename the directory `"#{first_name}_#{last_name}"`.
-    * ZIP it (you can use OS X's built in zip functionality)
-    * Use either `.tar.gz` or `.zip`; no boutique formats please :-)
-    * Email it to your TAs.
+    * ZIP it
+      * Use `.zip`; no boutique formats please :-)
+    * Upload the assessment to progress tracker.  
